@@ -4,10 +4,12 @@
 body{
     background-color: floralwhite;
     text-align: center;
+    
 }
 h1,h2{
     color:blue;
     text-align: center;
+    font-style: italic;
 }
 main div img{
     width: 100%;
@@ -16,16 +18,17 @@ main div img{
 main div span{
     color: red;
     font-size: 20px;
+    font-weight: bold;
 }
 #contenedorlistas img{
     width: 100%;
     padding: 10px;
-    background-color: black;
+    background-color: blue;
 }
 footer{
     background-color: blue;
     color: white;
-    border
+    border-radius: 10px;
 }
 ul.listadesordenada{
     list-style-type: square;
@@ -35,8 +38,9 @@ ul.listadesordenada{
     background-color: black;
     color: white;
     width: 10%;
-    border-radius: 15%;
-}ol.listaordenada{
+    border-radius: 15px;
+}
+ol.listaordenada{
     list-style-type: lower-alpha ;
     text-align: left;
     position: relative;
@@ -44,7 +48,7 @@ ul.listadesordenada{
     background-color: chartreuse;
     color: black;
     width: 10%;
-    border-radius: 15%;
+    border-radius: 15px;
 }
 
 main div ul li:hover{
