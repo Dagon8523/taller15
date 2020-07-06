@@ -1,0 +1,58 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color: floralwhite;
+    text-align: center;
+}
+h1,h2{
+    color:blue;
+    text-align: center;
+}
+main div img{
+    width: 100%;
+    height: 350px;
+}
+main div span{
+    color: red;
+    font-size: 20px;
+}
+#contenedorlistas img{
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+}
+footer{
+    background-color: blue;
+    color: white;
+    border
+}
+ul.listadesordenada{
+    list-style-type: square;
+    text-align: left;
+    position: relative;
+    left: 600px;
+    background-color: black;
+    color: white;
+    width: 10%;
+    border-radius: 15%;
+}ol.listaordenada{
+    list-style-type: lower-alpha ;
+    text-align: left;
+    position: relative;
+    left: 600px;
+    background-color: chartreuse;
+    color: black;
+    width: 10%;
+    border-radius: 15%;
+}
+
+main div ul li:hover{
+    background-color: white;
+    color: black;
+}
+main div ol li:hover{
+    background-color: black;
+    color: greenyellow;
+}
+
